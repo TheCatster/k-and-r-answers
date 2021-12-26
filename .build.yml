@@ -1,0 +1,11 @@
+image: archlinux
+sources:
+  - https://git.sr.ht/~thecatster/k-and-r-answers
+secrets:
+  - 3ec8d6c4-470d-4198-8b1c-b3c772f8fff3
+tasks:
+  - mirror: |
+      cd k-and-r-answers
+      git remote add github git@github.com:thecatster/k-and-r-answers
+      ssh-keyscan github.com >> ~/.ssh/known_hosts
+      git push -f github master
