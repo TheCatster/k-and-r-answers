@@ -11,3 +11,4 @@ set(CHAPTER_ONE ${CMAKE_CURRENT_SOURCE_DIR}/chapter-one)
 # Chapter One Executables
 add_executable(one-one ${CHAPTER_ONE}/one.c)
 add_executable(one-two ${CHAPTER_ONE}/two.c)
+add_executable(one-three ${CHAPTER_ONE}/three.c)
