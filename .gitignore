@@ -4,6 +4,9 @@
 *.log
 tmp/
 
+# CMake
+build/
+
 # C
 *.o
 *.out
