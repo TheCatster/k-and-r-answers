@@ -1,7 +1,5 @@
 #include <stdio.h>
 
-#include <stdio.h>
-
 /*
  * Print Fahrenheit-Celsius table, floating-point version
  */

@@ -3,6 +3,7 @@
 .idea
 *.log
 tmp/
+.cache/
 
 # CMake
 build/
