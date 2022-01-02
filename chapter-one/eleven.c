@@ -1,5 +1,12 @@
 #include <stdio.h>
 
+/*
+** This exercise asks to determine how we can test this word count program, and
+** what kinds of bugs we could uncover. To test, we could pipe in input from
+** another file, with various characters and whatnot. Some bugs might be
+** newlines at the end of a file, or certain escaped characters.
+*/
+
 int main() {
   const int IN = 1;
   const int OUT = 0;
